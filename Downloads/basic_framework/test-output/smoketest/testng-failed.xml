@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [smoketest]">
+  <parameter name="URL" value="782920"/>
+  <test thread-count="5" name="ADAC Medical Android(failed)">
+    <classes>
+      <class name="AppointmentBookingFlow">
+        <methods>
+          <include name="VerifyAppointmentBooking"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- AppointmentBookingFlow -->
+      <class name="Login">
+        <methods>
+          <include name="Veriy_PINScreen"/>
+          <include name="VerifyLogin_Profile"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Login -->
+      <class name="OnboardingScreen">
+        <methods>
+          <include name="verifySkip_Swipe_Nutzungsbedingungen_OnboardingScreen"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- OnboardingScreen -->
+    </classes>
+  </test> <!-- ADAC Medical Android(failed) -->
+</suite> <!-- Failed suite [smoketest] -->

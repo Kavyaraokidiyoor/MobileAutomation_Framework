@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Adding_Child_and_Booking_appointment_flow">
+              <span class="suite-name border-failed">Adding Child and Booking appointment flow</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Adding_Child_and_Booking_appointment_flow">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Adding_Child_and_Booking_appointment_flow">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Adding_Child_and_Booking_appointment_flow">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Adding_Child_and_Booking_appointment_flow">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Adding_Child_and_Booking_appointment_flow">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Adding_Child_and_Booking_appointment_flow">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Adding_Child_and_Booking_appointment_flow">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Adding_Child_and_Booking_appointment_flow" class="hide-methods failed suite-Adding_Child_and_Booking_appointment_flow"> (hide)</a> <!-- hide-methods failed suite-Adding_Child_and_Booking_appointment_flow -->
+                      <a href="#" panel-name="suite-Adding_Child_and_Booking_appointment_flow" class="show-methods failed suite-Adding_Child_and_Booking_appointment_flow"> (show)</a> <!-- show-methods failed suite-Adding_Child_and_Booking_appointment_flow -->
+                    </span>
+                    <div class="method-list-content failed suite-Adding_Child_and_Booking_appointment_flow">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Adding_Child_and_Booking_appointment_flow" title="OnboardingScreen" hash-for-method="verifySkip_Swipe_Nutzungsbedingungen_OnboardingScreen">verifySkip_Swipe_Nutzungsbedingungen_OnboardingScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Adding_Child_and_Booking_appointment_flow -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Adding_Child_and_Booking_appointment_flow" class="hide-methods passed suite-Adding_Child_and_Booking_appointment_flow"> (hide)</a> <!-- hide-methods passed suite-Adding_Child_and_Booking_appointment_flow -->
+                      <a href="#" panel-name="suite-Adding_Child_and_Booking_appointment_flow" class="show-methods passed suite-Adding_Child_and_Booking_appointment_flow"> (show)</a> <!-- show-methods passed suite-Adding_Child_and_Booking_appointment_flow -->
+                    </span>
+                    <div class="method-list-content passed suite-Adding_Child_and_Booking_appointment_flow">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Adding_Child_and_Booking_appointment_flow" title="Login" hash-for-method="VerifyLogin_Profile">VerifyLogin_Profile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Adding_Child_and_Booking_appointment_flow" title="Login" hash-for-method="Veriy_PINScreen">Veriy_PINScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Adding_Child_and_Booking_appointment_flow -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Adding_Child_and_Booking_appointment_flow" class="panel Adding_Child_and_Booking_appointment_flow">
+          <div class="suite-Adding_Child_and_Booking_appointment_flow-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">OnboardingScreen</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySkip_Swipe_Nutzungsbedingungen_OnboardingScreen">
+                  </a> <!-- verifySkip_Swipe_Nutzungsbedingungen_OnboardingScreen -->
+                  <span class="method-name">verifySkip_Swipe_Nutzungsbedingungen_OnboardingScreen</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: org/bson/types/ObjectId
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.privateGetPublicMethods(Class.java:2902)
+	at java.lang.Class.getMethods(Class.java:1615)
+	at freemarker.ext.beans.ClassIntrospector.discoverAccessibleMethods(ClassIntrospector.java:464)
+	at freemarker.ext.beans.ClassIntrospector.discoverAccessibleMethods(ClassIntrospector.java:457)
+	at freemarker.ext.beans.ClassIntrospector.createClassIntrospectionData(ClassIntrospector.java:268)
+	at freemarker.ext.beans.ClassIntrospector.get(ClassIntrospector.java:244)
+	at freemarker.ext.beans.BeanModel.&lt;init&gt;(BeanModel.java:114)
+	at freemarker.ext.beans.BeanModel.&lt;init&gt;(BeanModel.java:104)
+	at freemarker.ext.beans.StringModel.&lt;init&gt;(StringModel.java:52)
+	at freemarker.ext.beans.StringModel$1.create(StringModel.java:37)
+	at freemarker.ext.beans.BeansModelCache.create(BeansModelCache.java:71)
+	at freemarker.ext.util.ModelCache.getInstance(ModelCache.java:84)
+	at freemarker.ext.beans.BeansWrapper.wrap(BeansWrapper.java:860)
+	at freemarker.template.DefaultObjectWrapper.handleUnknownType(DefaultObjectWrapper.java:235)
+	at freemarker.template.DefaultObjectWrapper.wrap(DefaultObjectWrapper.java:214)
+	at freemarker.template.WrappingTemplateModel.wrap(WrappingTemplateModel.java:105)
+	at freemarker.template.DefaultListAdapter.get(DefaultListAdapter.java:75)
+	at freemarker.core.DynamicKeyName.dealWithNumericalKey(DynamicKeyName.java:104)
+	at freemarker.core.DynamicKeyName._eval(DynamicKeyName.java:69)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.Assignment.accept(Assignment.java:131)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visitByHiddingParent(Environment.java:345)
+	at freemarker.core.ConditionalBlock.accept(ConditionalBlock.java:48)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.aventstack.extentreports.reporter.BasicFileReporter.processTemplate(BasicFileReporter.java:295)
+	at com.aventstack.extentreports.reporter.ExtentHtmlReporter.flush(ExtentHtmlReporter.java:53)
+	at com.aventstack.extentreports.ExtentObservable.lambda$notifyReporters$21(ExtentObservable.java:544)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.aventstack.extentreports.ExtentObservable.notifyReporters(ExtentObservable.java:544)
+	at com.aventstack.extentreports.ExtentObservable.flush(ExtentObservable.java:429)
+	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:275)
+	at OnboardingScreen.verifySkip_Swipe_Nutzungsbedingungen_OnboardingScreen(OnboardingScreen.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+Caused by: java.lang.ClassNotFoundException: org.bson.types.ObjectId
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 68 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Adding_Child_and_Booking_appointment_flow-class-failed -->
+          <div class="suite-Adding_Child_and_Booking_appointment_flow-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLogin_Profile">
+                  </a> <!-- VerifyLogin_Profile -->
+                  <span class="method-name">VerifyLogin_Profile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Veriy_PINScreen">
+                  </a> <!-- Veriy_PINScreen -->
+                  <span class="method-name">Veriy_PINScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Adding_Child_and_Booking_appointment_flow-class-passed -->
+        </div> <!-- panel Adding_Child_and_Booking_appointment_flow -->
+        <div panel-name="test-xml-Adding_Child_and_Booking_appointment_flow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/kavya.rao.kidiyoor/Documents/MobileAutomation/suites/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Adding Child and Booking appointment flow&quot;&gt;
+  &lt;parameter name=&quot;URL&quot; value=&quot;782920&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;iOS&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;OnboardingScreen&quot;/&gt;
+      &lt;class name=&quot;Login&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- iOS --&gt;
+&lt;/suite&gt; &lt;!-- Adding Child and Booking appointment flow --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Adding_Child_and_Booking_appointment_flow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Adding Child and Booking appointment flow</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">iOS (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Adding_Child_and_Booking_appointment_flow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Adding Child and Booking appointment flow</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Adding_Child_and_Booking_appointment_flow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Adding Child and Booking appointment flow</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Adding_Child_and_Booking_appointment_flow');
+function tableData_Adding_Child_and_Booking_appointment_flow() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifySkip_Swipe_Nutzungsbedingungen_OnboardingScreen')
+data.setCell(0, 2, 'OnboardingScreen')
+data.setCell(0, 3, 28059);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyLogin_Profile')
+data.setCell(1, 2, 'Login')
+data.setCell(1, 3, 25661);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Veriy_PINScreen')
+data.setCell(2, 2, 'Login')
+data.setCell(2, 3, 20135);
+window.suiteTableData['Adding_Child_and_Booking_appointment_flow']= { tableData: data, tableDiv: 'times-div-Adding_Child_and_Booking_appointment_flow'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Adding_Child_and_Booking_appointment_flow">
+              </div> <!-- times-div-Adding_Child_and_Booking_appointment_flow -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Adding_Child_and_Booking_appointment_flow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Adding Child and Booking appointment flow</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Adding_Child_and_Booking_appointment_flow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Adding_Child_and_Booking_appointment_flow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">OnboardingScreen</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySkip_Swipe_Nutzungsbedingungen_OnboardingScreen</span>
+                <span class="method-start">33792 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApp</span>
+                <span class="method-start">61902 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLogin_Profile</span>
+                <span class="method-start">67889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">openApp</span>
+                <span class="method-start">93563 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Veriy_PINScreen</span>
+                <span class="method-start">100993 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
