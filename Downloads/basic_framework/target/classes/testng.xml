@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Adding Child and Booking appointment flow">
+
+<parameter name="URL" value="782920"></parameter>
+    <test name="iOS">
+        <classes>
+       
+      <class name="OnboardingScreen"/>       
+ 		<class name="Login"/>
+ 
+                    
+                    
+        </classes>
+    </test>
+</suite>
